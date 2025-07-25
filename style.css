@@ -179,7 +179,6 @@
         flex-direction: column;
         gap: 10px;
       }
-
       footer {
         position: relative;
         font-size: 9px;
@@ -187,13 +186,16 @@
       }
 
     }
-
      @media (max-width: 1000px) {  
          footer {
           position: relative;
      }
-
-     header {
-      position: relative;
-     }
+        header {
+          position: relative;
+    }
+}
+     @media (max-width: 550px) {  
+        header {
+          position: sticky;
+    }
 }
