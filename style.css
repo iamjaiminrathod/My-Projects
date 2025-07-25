@@ -102,6 +102,7 @@
       font-weight: bold;
       transition: 0.3s;
       letter-spacing: 1px;
+      font-size: 12px;
     }
 
     #preview:hover {
@@ -118,6 +119,7 @@
       font-weight: bold;
       transition: 0.3s;
       letter-spacing: 1px;
+      font-size: 12px;
     }
 
     #download:hover {
