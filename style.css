@@ -192,4 +192,8 @@
          footer {
           position: relative;
      }
+
+     header {
+      position: relative;
+     }
 }
