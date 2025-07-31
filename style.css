@@ -79,9 +79,12 @@
     }
 
     .project-card:hover {
+      transition: 0.3s;
       transform: translateY(-0px) scale(1.02);
       box-shadow: 0 0px 20px 0px rgba(177, 180, 240, 0.211) ;
       border-color: #00b4d8;
+      background-color: #121212;
+      
     }
 
     .project-title {
@@ -158,10 +161,7 @@
       transition: 0.3s;
     }
 
-    footer p:hover {
-      transform: scale(1.01);
-      text-shadow: 0 0 10px rgba(0, 180, 216, 0.6);
-    }
+  
     
     @media (max-width: 992px) {
       #card-container {
@@ -198,10 +198,7 @@
 
     }
      @media (max-width: 1000px) {  
-         footer {
-          position: relative;
-     }
-        header {
+        header, footer {
           position: relative;
     }
 }
